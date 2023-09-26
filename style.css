@@ -1,0 +1,48 @@
+/* Arquivo style.css */
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo cinza escuro */
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Alinhamento do texto centralizado */
+    padding: 20px; /* Espaçamento interno de 20 pixels */
+}
+
+/* Estilo do título principal */
+h1 {
+    font-family: Arial, sans-serif; /* Fonte Arial ou sem serifa */
+    font-size: 36px; /* Tamanho da fonte 36 pixels */
+}
+
+/* Estilo dos títulos das seções */
+h2 {
+    font-family: Verdana, sans-serif; /* Fonte Verdana ou sem serifa */
+    font-size: 24px; /* Tamanho da fonte 24 pixels */
+    color: #333; /* Cor do texto cinza escuro */
+    margin-top: 40px; /* Margem superior de 40 pixels */
+}
+
+/* Estilo da lista de livros */
+ul {
+    list-style-type: none; /* Sem marcadores na lista */
+    padding: 0; /* Sem espaçamento interno na lista */
+}
+
+/* Estilo dos itens da lista de livros */
+li {
+    margin-bottom: 10px; /* Margem inferior de 10 pixels entre os itens */
+}
+
+/* Estilo dos links dos livros */
+a {
+    display: block; /* Exibir os links como blocos */
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    color: #333; /* Cor do texto cinza escuro */
+    text-decoration: none; /* Sem sublinhado nos links */
+    padding: 10px; /* Espaçamento interno de 10 pixels nos links */
+}
+
+/* Estilo dos links dos livros ao passar o mouse sobre eles */
+a:hover {
+    background-color: #ccc; /* Cor de fundo cinza médio ao passar o mouse */
+}
