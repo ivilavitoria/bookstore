@@ -1,0 +1,185 @@
+/* Arquivo style.css */
+
+/* Estilo do cabeçalho */
+header {
+    background-color: saddlebrown; /* Cor de fundo marrom */
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Alinhamento do texto centralizado */
+    padding: 20px; /* Espaçamento interno de 20 pixels */
+}
+
+/* Estilo do título principal */
+h1 {
+    font-family: Arial, sans-serif; /* Fonte Arial ou sem serifa */
+    font-size: 36px; /* Tamanho da fonte 36 pixels */
+}
+
+/* Estilo dos títulos das seções */
+h2 {
+    font-family: Verdana, sans-serif; /* Fonte Verdana ou sem serifa */
+    font-size: 24px; /* Tamanho da fonte 24 pixels */
+    color: #333; /* Cor do texto cinza escuro */
+    margin-top: 40px; /* Margem superior de 40 pixels */
+}
+
+/* Estilo da lista de livros */
+#livros ul {
+    list-style-type: none; /* Sem marcadores na lista */
+    padding: 0; /* Sem espaçamento interno na lista */
+}
+
+/* Estilo dos itens da lista de livros */
+#livros ul li {
+    margin-bottom: 10px; /* Margem inferior de 10 pixels entre os itens */
+}
+
+/* Estilo dos links dos livros */
+#livros ul li a {
+    display: block; /* Exibir os links como blocos */
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    color: #333; /* Cor do texto cinza escuro */
+    text-decoration: none; /* Sem sublinhado nos links */
+    padding: 10px; /* Espaçamento interno de 10 pixels nos links */
+}
+/*classe para toggle esconder livros*/
+#livros ul li a.hide {
+    display: none;
+}
+
+/* Estilo dos links dos livros ao passar o mouse sobre eles */
+#livros ul li a:hover {
+    background-color: #ccc; /* Cor de fundo cinza médio ao passar o mouse */
+}
+
+
+/* Estilo do Menu Horizontal*/
+    
+#menu-h{
+    background-color: saddlebrown;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    background-color: burlywood;
+    color: black;
+    font: Arial, sans-serif;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: darkorange;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    color: white;
+    background-color: darkblue;
+}
+/* Estilo do rodapé */
+footer {
+    background-color: saddlebrown; /* Cor de fundo marrom */
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Alinhamento do texto centralizado */
+    padding: 20px; /* Espaçamento interno de 20 pixels */
+}
+
+
+/* Estilo do Slideshow */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Imagens escondidas como padrão 
+.mySlides {
+  display: none;
+}*/
+
+/* Anterior e Próximo */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* botão de próximo a direita */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, background fica preto */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Texto das Imagens */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Configuração pontos */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Animação "fade" */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
