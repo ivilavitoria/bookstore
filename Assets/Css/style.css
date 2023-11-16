@@ -110,6 +110,26 @@ footer {
     padding: 20px; /* Espaçamento interno de 20 pixels */
 }
 
+/*Estilo Sobre*/
+.sobrebox {
+  display: inline-block;
+  position: relative;
+}
+.sobrebox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sobrebox p {
+  position: absolute;
+  top: 100px;
+  right: 220px;
+  left: 240px;
+  font-size: 34px;
+  color: black;
+  justify-content: center;
+  font-family: cursive;
+}
 
 /* Estilo do Slideshow */
 .slider {
