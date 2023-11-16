@@ -1,0 +1,228 @@
+/* Arquivo style.css */
+
+/* Estilo do cabeçalho */
+header {
+    background-color: saddlebrown; /* Cor de fundo marrom */
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Alinhamento do texto centralizado */
+    padding: 20px; /* Espaçamento interno de 20 pixels */
+}
+body{
+    background-color: saddlebrown;
+}
+
+/* Estilo dos títulos das seções */
+h2 {
+    font-family: Verdana, sans-serif; /* Fonte Verdana ou sem serifa */
+    font-size: 24px; /* Tamanho da fonte 24 pixels */
+    color: darkblue; /* Cor do texto cinza escuro */
+    margin-top: 40px; /* Margem superior de 40 pixels */
+}
+
+/* Estilo da lista de livros */
+#livros ul {
+    list-style-type: none; /* Sem marcadores na lista */
+    padding: 0; /* Sem espaçamento interno na lista */
+}
+
+/* Estilo dos itens da lista de livros */
+#livros ul li {
+    margin-bottom: 10px; /* Margem inferior de 10 pixels entre os itens */
+}
+
+/* Estilo dos links dos livros */
+#livros ul li a {  
+  display: block; /* Exibir os links como blocos */
+    font-size: 24px;
+    background-color: sandybrown; /* Cor de fundo cinza claro */
+    color: #333; /* Cor do texto cinza escuro */
+    text-decoration: none; /* Sem sublinhado nos links */
+    padding: 10px; /* Espaçamento interno de 10 pixels nos links */
+}
+
+/* Estilo dos links dos livros ao passar o mouse sobre eles */
+#livros ul li a:hover {
+    background-color: darkgoldenrod; /* Cor de fundo cinza médio ao passar o mouse */
+}
+
+.Upbtn{
+  background-color: burlywood;
+  color: black;
+  font: Arial, sans-serif;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.Upbtn:hover{
+  background-color: darkorange;
+}
+
+/* Estilo do Menu Horizontal*/
+    
+#menu-h{
+    background-color: saddlebrown;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    background-color: burlywood;
+    color: black;
+    font: Arial, sans-serif;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: darkorange;
+}
+
+
+
+#menu-h ul li:last-child a {
+    float: right;
+    color: white;
+    background-color: darkblue;
+}
+/* Estilo do rodapé */
+footer {
+    background-color: saddlebrown; /* Cor de fundo marrom */
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Alinhamento do texto centralizado */
+    padding: 20px; /* Espaçamento interno de 20 pixels */
+}
+
+/*Estilo Sobre*/
+.sobrebox {
+  margin-left: 160px;
+  display: inline-block;
+  position: relative;
+}
+.sobrebox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sobrebox p {
+  position: absolute;
+  top: 100px;
+  right: 220px;
+  left: 240px;
+  font-size: 34px;
+  color: black;
+  justify-content: center;
+  font-family: cursive;
+}
+
+/* Estilo do Slideshow */
+.slider {
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+}
+
+.slidebtn{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.bttn{
+  border: 2px solid saddlebrown;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bttn:not(:last-child){
+  margin-right: 10px;
+}
+
+.bttn:hover{
+  background-color: saddlebrown;
+}
+
+#bttn1:checked ~ .first{
+  margin-left: 0;
+}
+
+#bttn2:checked ~ .first{
+  margin-left: -25%;
+}
+
+#bttn3:checked ~ .first{
+  margin-left: -50%;
+}
+
+#bttn4:checked ~ .first{
+  margin-left: -75%;
+}
+
+.navigation div{
+  border: 2px solid saddlebrown; 
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navigation{
+  position: absolute;
+  width: 800px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
+}
+.navigation div:not(:last-child){
+  margin-right: 10px;
+}
+
+#bttn1:checked ~ .navigation .btn1{
+  background-color: burlywood;
+}
+
+#bttn2:checked ~ .navigation .btn2{
+  background-color: burlywood;
+}
+
+#bttn3:checked ~ .navigation .btn3{
+  background-color: burlywood;
+}
+
+#bttn4:checked ~ .navigation .btn4{
+  background-color: burlywood;
+}
+
