@@ -7,6 +7,9 @@ header {
     text-align: center; /* Alinhamento do texto centralizado */
     padding: 20px; /* Espaçamento interno de 20 pixels */
 }
+body{
+    background-color: saddlebrown;
+}
 
 /* Estilo do título principal */
 h1 {
@@ -18,7 +21,7 @@ h1 {
 h2 {
     font-family: Verdana, sans-serif; /* Fonte Verdana ou sem serifa */
     font-size: 24px; /* Tamanho da fonte 24 pixels */
-    color: #333; /* Cor do texto cinza escuro */
+    color: darkblue; /* Cor do texto cinza escuro */
     margin-top: 40px; /* Margem superior de 40 pixels */
 }
 
@@ -36,7 +39,7 @@ h2 {
 /* Estilo dos links dos livros */
 #livros ul li a {
     display: block; /* Exibir os links como blocos */
-    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    background-color: sandybrown; /* Cor de fundo cinza claro */
     color: #333; /* Cor do texto cinza escuro */
     text-decoration: none; /* Sem sublinhado nos links */
     padding: 10px; /* Espaçamento interno de 10 pixels nos links */
@@ -48,9 +51,20 @@ h2 {
 
 /* Estilo dos links dos livros ao passar o mouse sobre eles */
 #livros ul li a:hover {
-    background-color: #ccc; /* Cor de fundo cinza médio ao passar o mouse */
+    background-color: darkgoldenrod; /* Cor de fundo cinza médio ao passar o mouse */
 }
 
+.Upbtn{
+  background-color: burlywood;
+  color: black;
+  font: Arial, sans-serif;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.Upbtn:hover{
+  background-color: darkorange;
+}
 
 /* Estilo do Menu Horizontal*/
     
