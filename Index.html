@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0"> <!--dimensão do site-->
+    <title>LivrariaWebDev</title> <!--Nome na Aba da página-->
+    <link rel="stylesheet" href="Assets/Css/style.css"> <!--Link para o CSS-->
+    <link href="Assets/img/Logo.ico" rel="icon"> <!--Link para o ícone da página-->
+    </head>
+    
+    <body>
+        <header>
+            <!--Menu-->
+            <div class="container">
+                <div class="logo">
+                <img src="Assets/img/Logo.ico" alt="Logo da Livraria WebDev"> <h1>Livraria WebDev</h1>
+                </div>
+                <nav id="menu-h">
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="Assets/Todos-os-livros.html">Todos os Livros</a></li>
+                        <li><a href="Assets/Ficcao-cientifica.html">Ficção Científica</a></li>
+                        <li><a href="Assets/Fantasia.html">Fantasia</a></li>
+                        <li><a href="Assets/Romance.html">Romance</a></li>
+                        <li><a href="Assets/Terror.html">Terror</a></li>
+                        <li><a href="Assets/Nao-Ficcao.html">Não Ficção</a></li>
+                        <li><a href="Assets/Manga.html">Mangá</a></li>
+                        <li><a href="Assets/Sobre.html">Sobre</a></li>
+                        <li><a href="Assets/Login.php">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>    
+        <!--Slideshow--> 
+        <div class="slider">
+            
+            <div class="slides">
+                <!--Radio Buttons-->
+                <input type="radio" name="btnr" id="bttn1">
+                <input type="radio" name="btnr" id="bttn2">
+                <input type="radio" name="btnr" id="bttn3">
+                <input type="radio" name="btnr" id="bttn4">
+            
+                <!--Imagens-->
+                <div class="slide first">
+                    <img src="Assets/img/Livraria1.jpg" alt="Imagem #1 da Livraria" />
+                </div>
+                <div class="slide">
+                    <img src="Assets/img/Livraria2.jpg" alt="Imagem #2 da Livraria" />
+                </div>
+                <div class="slide">
+                    <img src="Assets/img/Livraria3.jpg" alt="Imagem #3 da Livraria" />
+                </div>
+                <div class="slide">
+                    <img src="Assets/img/Livraria4.jpg" alt="Imagem #4 da Livraria" />
+                </div>
+                <!--Navegação Automática-->
+                <div class="navigation">
+                    <div class="btn1"></div>
+                    <div class="btn2"></div>
+                    <div class="btn3"></div>
+                    <div class="btn4"></div>
+                </div>
+            </div>
+
+                <!--Label Botões-->
+            <div class="slidebtn">
+                <label for="bttn1" class="bttn"></label>
+                <label for="bttn2" class="bttn"></label>
+                <label for="bttn3" class="bttn"></label>
+                <label for="bttn4" class="bttn"></label>
+            </div>
+        </div>        
+    
+    
+    
+        <script src="Assets/js/script.js"></script>
+    </body>
+    
+    
+    <footer>
+        
+        <img src="Assets/img/Nome.ico" alt="Nome estilizado da Livraria WebDev">
+            
+    </footer>
+</html>
